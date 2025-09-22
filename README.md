@@ -1,5 +1,13 @@
 ```
-go get github.com/segmentio/kafka-go@v0.4.33
+cd producer
+go mod init github.com/NaNd/kafka-two-services/producer
+go get github.com/segmentio/kafka-go
+go get github.com/gin-gonic/gin
+```
+```
+cd ../consumer
+go mod init github.com/NaNd/kafka-two-services/consumer
+go get github.com/segmentio/kafka-go
 ```
 
 👇
